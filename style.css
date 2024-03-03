@@ -1,0 +1,44 @@
+#webgl-canvas {
+    border: solid;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body {
+    background-color: black;
+}
+
+#overlay {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: monospace;
+    padding: 0.5em;
+}
+
+#overlayBottom {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: monospace;
+    padding: 0.5em;
+}
+
+#overlayRight {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: monospace;
+    padding: 0.5em;
+}
